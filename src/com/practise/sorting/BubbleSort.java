@@ -32,6 +32,7 @@ public class BubbleSort {
 					swap = true;
 				}
 			}
+			ep=ep-1;
 			if (swap == false)
 				break; // if there are no swaps in entire pass come out
 		}
