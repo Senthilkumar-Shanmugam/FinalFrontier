@@ -27,10 +27,10 @@ public class MergeSort {
 		int R[]= new int[end-mid];
 		
 		//copy to temp arrays
-		for(int i=0,j=0;i<L.length;i++)
+		for(int i=start,j=0;j<L.length;i++)
 			L[j++]=a[i];
 		
-		for(int i=0,j=0;i<R.length;i++)
+		for(int i=mid+1,j=0;j<R.length;i++)
 			R[j++]=a[i];
 		
 		int k=start;
@@ -51,7 +51,8 @@ public class MergeSort {
 			a[k++]=L[i++];
 		
 		while(j<R.length)
-			a[k++]=L[j++];
+			a[k++]=R[j++];
+		dummy=100;
 	}
 	
 	private static void display(int[] a){
