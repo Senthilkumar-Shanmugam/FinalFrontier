@@ -34,7 +34,7 @@ public class StringCompression {
 	public static void main(String[] args) {
 		System.out.println("compressed string>>" + compressString("aaabaaaaccaaaaba"));
 	}
-
+    //alternative simple solution.. use hashtable. key..char value. count
 	private static String compressString(String inp) {
 		StringBuffer result = new StringBuffer();
 		char lastchar = ' ';
