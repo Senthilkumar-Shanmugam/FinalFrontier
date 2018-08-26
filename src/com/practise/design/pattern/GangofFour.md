@@ -25,8 +25,8 @@ Provide an interface for creating families of related or dependent objects witho
      use the builder pattern,
        > the algorithm for creating complex object should be independent of the parts that make up the object and how they are assembled..move construction logic away from the constructor.. too many arguments
        > construction process must allow for differnt representation
-       
-       Example.. StringBuilder
+       > immutable ob j once an object is constructed we do not want it to be changed
+       Example.. StringBuilder,
  
  4. Prototype
     Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. 
