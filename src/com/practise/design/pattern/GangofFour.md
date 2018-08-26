@@ -20,7 +20,13 @@ Provide an interface for creating families of related or dependent objects witho
  
  Participants : AbstractFactory,Concretefactory,AbstractProduct,ConcreteProduct,client
  
- 
+ 3.Builder Patter
+     Separate the construction of a complex object from its representation so that the same constructionprocess can create different representation.
+     use the builder pattern,
+       > the algorithm for creating complex object should be independent of the parts that make up the object and how they are assembled..move construction logic away from the constructor.. too many arguments
+       > construction process must allow for differnt representation
+       
+       Example.. StringBuilder
  
  4. Prototype
     Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. 
