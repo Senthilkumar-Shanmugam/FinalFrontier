@@ -18,4 +18,22 @@ Provide an interface for creating families of related or dependent objects witho
  > a family of related product objects is designed to be used together, and you need to enforce this constraint.
  > you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations
  
- Participants : AbstractFactory,Concretefactory,AbstractProduct,ConcreteProduct,cleint
+ Participants : AbstractFactory,Concretefactory,AbstractProduct,ConcreteProduct,client
+ 
+ 
+ 
+ 4. Prototype
+    Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. 
+    use when creation of prouct is complexy and expensive(like reading from db and constructing it) copy an existing instance
+    and modify it.
+    when to use,
+    >>when the classes to instantiate are specified at run-time, for example, by dynamic loading; or
+     >> to avoid building a class hierarchy of factories that parallels the class hierarchy of products; or
+     >>when instances of a class can have one of only a few different combinations of state. It may be more convenient to install a corresponding number of prototypes and clone them rather than instantiating the class manually, each time with the appropriate state.
+ 
+ 
+ 5.Singleton Pattern
+    There must be exactly one instance of class, it must be accessible to clients froma well known access point.
+    
+   Usually lazily loaded Example: java.lang.Runtime, Spring beans with Singleton scope
+
