@@ -18,4 +18,11 @@ Provide an interface for creating families of related or dependent objects witho
  > a family of related product objects is designed to be used together, and you need to enforce this constraint.
  > you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations
  
- Participants : AbstractFactory,Concretefactory,AbstractProduct,ConcreteProduct,cleint
+ Participants : AbstractFactory,Concretefactory,AbstractProduct,ConcreteProduct,client
+ 
+ 
+ 5.Singleton Pattern
+    There must be exactly one instance of class, it must be accessible to clients froma well known access point.
+    
+   Usually lazily loaded Example: java.lang.Runtime, Spring beans with Singleton scope
+
