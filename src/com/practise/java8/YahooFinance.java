@@ -14,7 +14,8 @@ public class YahooFinance {
       Thread.sleep(1000);
       final BufferedReader reader = 
         new BufferedReader(new InputStreamReader(url.openStream()));
-      final String data = reader.lines().substream(1).findFirst().get();
+      final String data = null;
+    		  //reader.lines().substream(1).findFirst().get();
       final String[] dataItems = data.split(",");
       return Double.parseDouble(dataItems[dataItems.length - 1]);      
       //return 12.22;

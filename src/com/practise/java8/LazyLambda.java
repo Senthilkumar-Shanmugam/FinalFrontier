@@ -13,7 +13,7 @@ public class LazyLambda {
 		 }
 	 }
 	public static void main(String[] args) {
-      Timeit.code(()-> findImperative);		
+   //   Timeit.code(()-> findImperative);		
 	
 	
 	}

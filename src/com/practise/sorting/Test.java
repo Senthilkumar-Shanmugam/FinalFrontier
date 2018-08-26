@@ -15,18 +15,5 @@ public class Test {
             }
         }*/
     	
-    	ArrayList<Integer> a = new ArrayList<Integer>();
-    	a.add(10);
-    	a.add(-2);
-    	 int i=0;
-    	    while(i<a.size())
-    	        if (a.get(i) < 0) 
-    	            a.remove(i);
-    	        else
-    	            i++;
-    	}
-
-    	for(int item:a)
-    		System.out.print(item);
     }
-
+}
