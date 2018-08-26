@@ -1,4 +1,4 @@
-package com.practise.problems;
+package com.practise.problems.string;
 
 /**
  * Joseph and Jane are making a contest for apes. During the process, they have

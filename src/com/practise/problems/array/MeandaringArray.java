@@ -1,4 +1,4 @@
-package com.practise.problems;
+package com.practise.problems.array;
 
 import java.util.Arrays;
 
