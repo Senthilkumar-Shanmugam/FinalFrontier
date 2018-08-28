@@ -25,3 +25,7 @@ small_nums.append(i)
 The example is declarative because we do not specify any "implementation details" of building the list.
 
 generally, using LINQ results in a declarative style, because you aren't saying how to obtain what you want; you are only saying what you want. You could say the same about SQL
+
+https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2
+
+
