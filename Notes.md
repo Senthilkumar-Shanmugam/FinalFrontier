@@ -35,5 +35,9 @@ JavaScript has first class functions. What does that mean? Just like numbers, st
 Basically, we can use functions just like any other bits of data in our programs, and that makes abstraction a lot easier. For instance, we can create a function that abstracts the process of iterating over a list and accumulating a return value by passing in a function that handles the bits that are different.
 
 
+Why Lambda?
+============
+   it enables us to write functional style (declarative) code, because of that as opposed to imperative style. we dont mutate states, assign states, depend on something that changes, easier to depend on these functions. used mainly in streams where we work on larger data which necessiates concurrent processing.they take predicates(functions as inputs) higher order functions. we no longer are confined to pass object arguments,instead pass functional interfaces,--- anononymouse method bodies with paramters. return type is inferred from the context.
+
 
     
